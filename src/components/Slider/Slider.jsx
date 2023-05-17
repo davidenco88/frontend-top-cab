@@ -17,11 +17,15 @@ function Slider({ data }) {
       </div>
       <Splide
         options={{
-          fixedWidth: "280px",
+          // perPage: "1",
+          width: "100%",
           type: "loop",
           center: true,
-          gap: "60px",
+          // gap: "10px",
           snap: true,
+          pagination: false,
+          margin: "0",
+          // focus: "center",
         }}
       >
         {data.map((item) => (
