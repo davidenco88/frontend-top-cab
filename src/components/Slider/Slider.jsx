@@ -17,7 +17,6 @@ function Slider({ data }) {
       </div>
       <Splide
         options={{
-          // perPage: "1",
           width: "100%",
           type: "loop",
           center: true,
