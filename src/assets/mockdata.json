@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "https://shorturl.at/ciEL5",
+    "type": "Classic",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "id": 2,
+    "image": "https://shorturl.at/dnY78",
+    "type": "Classic",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "id": 3,
+    "image": "https://shorturl.at/lpLMT",
+    "type": "Van",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  {
+    "id": 4,
+    "image": "https://rb.gy/wn2fl",
+    "type": "Business",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
+  }
+]
