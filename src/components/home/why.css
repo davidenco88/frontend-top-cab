@@ -34,3 +34,9 @@ img {
 h3{
   color:#eab30f;
 }
+
+@media (min-width: 376px) {
+  .c-section {
+    width: 100%;
+  }
+}

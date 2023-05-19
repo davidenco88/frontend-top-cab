@@ -5,7 +5,9 @@
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(234, 179, 15,0.5);
-  background: 'cityBackground.jpg';
+  background-image: url('cityBackground.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .whowTo-section__title {
   text-align: center;
@@ -37,3 +39,10 @@ h3{
   color:#eab30f;
 }
 
+@media (min-width: 376px) {
+  .whowTo-section {
+
+    background-color: rgba(234, 179, 15,0.5);
+    background: 'cityBackground.jpg';
+  }
+}
