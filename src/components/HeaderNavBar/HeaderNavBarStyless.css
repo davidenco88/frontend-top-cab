@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.headerNavBar {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.548);
+    color: white;
+}
+
+.navBar>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.configBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* MODIFICAR ESTE ESTILO CUANDO SE AGREGUE LOS LINKS */
+.navBar__link>p {
+    border-bottom: 4px;
+}
+
+.headerNavBar__menu {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    .navBar>ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #f1c40f;
+        padding: 10px 0;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.363);
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .headerNavBar__menu {
+        display: block;
+    }
+
+}
