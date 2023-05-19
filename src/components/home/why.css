@@ -1,0 +1,36 @@
+
+
+.c-section {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-section__title {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color:#ffffff;
+  background: #eab30f;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  max-width: 1250px;
+}
+.c-services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  max-width: 1200px;
+}
+.c-services__item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 400px;
+  background: #fcfafc;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+h3{
+  color:#eab30f;
+}
