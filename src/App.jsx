@@ -1,10 +1,8 @@
-import "./App.css";
-import Successful from "./components/Successful/Successful";
+import './App.css';
 
 function App() {
   return (
     <>
-      <Successful />;
     </>
   );
 }
