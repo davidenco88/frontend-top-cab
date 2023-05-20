@@ -7,7 +7,7 @@ function HeroHome() {
       <div className="hero__content">
         <h1>Book Your CAB</h1>
         <p>Rent Cab With Affordable Price With Rica Cab</p>
-        <form>
+        <form className="hero__location">
           <label htmlFor="diff-location">
             <input type="radio" name="location" id="diff-location" value="Different" />
             Different Location
