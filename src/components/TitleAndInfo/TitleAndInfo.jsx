@@ -1,7 +1,7 @@
 import "./TitleAndInfo.scss";
 
-function TitleAndInfo({ failed }) {
-  const { title, description } = failed;
+function TitleAndInfo({ text }) {
+  const { title, description } = text;
   return (
     <div className="comp">
       <h1 className="comp__title">{title}</h1>

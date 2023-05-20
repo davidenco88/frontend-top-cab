@@ -1,7 +1,12 @@
 import "./App.css";
+import Successful from "./components/Successful/Successful";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Successful />;
+    </>
+  );
 }
 
 export default App;
