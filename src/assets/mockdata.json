@@ -1,26 +1,30 @@
 [
   {
     "id": 1,
+    "name": "Renault",
     "image": "https://shorturl.at/ciEL5",
-    "type": "Classic",
+    "service": "Classic",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
     "id": 2,
+    "name": "Renault",
     "image": "https://shorturl.at/dnY78",
-    "type": "Classic",
+    "service": "Classic",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
     "id": 3,
+    "name": "Ford",
     "image": "https://shorturl.at/lpLMT",
-    "type": "Van",
+    "service": "Van",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
     "id": 4,
+    "name": "Mercedez",
     "image": "https://rb.gy/wn2fl",
-    "type": "Business",
+    "service": "Business",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   }
 ]
