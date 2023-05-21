@@ -4,6 +4,7 @@
     "name": "Renault",
     "image": "https://shorturl.at/ciEL5",
     "service": "Classic",
+    "type": "Sedan",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Renault",
     "image": "https://shorturl.at/dnY78",
     "service": "Classic",
+    "type": "Sedan",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
@@ -18,6 +20,7 @@
     "name": "Ford",
     "image": "https://shorturl.at/lpLMT",
     "service": "Van",
+    "type": "Van",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
@@ -25,6 +28,7 @@
     "name": "Mercedez",
     "image": "https://rb.gy/wn2fl",
     "service": "Business",
+    "type": "Luxury",
     "description": "Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut"
   }
 ]

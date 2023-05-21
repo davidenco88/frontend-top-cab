@@ -1,0 +1,16 @@
+.listCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    max-width: 200px;
+    margin: 0px 90px;
+    margin-bottom: -25px;
+  }
+
+  &__type {
+    color: gray;
+  }
+
+}
