@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -21,16 +23,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
 div {
   display: flex;
 }
+
 h1 {
   display: flex;
 }
+
 h2 {
   display: flex;
 }
+
 h3 {
   display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
-
