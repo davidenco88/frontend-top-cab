@@ -7,7 +7,7 @@ import './ListedCar.scss';
 
 function ListedCar() {
   return (
-    <div className="list">
+    <main className="list">
       {data.map((item) => (
         <div className="list__listedCar" key={item.id}>
           <ImageAndType item={item} />
@@ -16,7 +16,7 @@ function ListedCar() {
           <OrangeButton text="Book now" />
         </div>
       ))};
-    </div>
+    </main>
   );
 }
 
