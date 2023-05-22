@@ -5,7 +5,10 @@
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(234, 179, 15,0.5);
-  background-image: url('cityBackground.jpg') ;
+  /*background: #C33764;   fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(233, 225, 116, 0.8), rgba(234, 179, 15,0.5)), url("cityBackground.jpg");
+  background: linear-gradient(rgba(233, 225, 116, 0.8), rgba(234, 179, 15,0.5)), url("cityBackground.jpg"); /* The least supported option. */
+  /*background-image: url('cityBackground.jpg') ;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,7 +25,7 @@
 }
 .whowTo-services {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px;
   max-width: 1200px;
 }
@@ -39,10 +42,10 @@ h3{
   color:#eab30f;
 }
 
-@media (min-width: 376px) {
+/*@media (min-width: 376px) {
   .whowTo-section {
-
+    width: auto;
     background-color: rgba(234, 179, 15,0.5);
     background: 'cityBackground.jpg';
   }
-}
+}*/
