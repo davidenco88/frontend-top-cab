@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+
+
+  &__listedCar {
+    margin: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px -10px rgb(193, 193, 193);
+    width: 340px;
+  }
+}

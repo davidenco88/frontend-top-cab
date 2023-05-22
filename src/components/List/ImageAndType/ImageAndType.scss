@@ -5,12 +5,14 @@
 
   &__img {
     max-width: 200px;
-    margin: 0px 90px;
+    margin: 0px auto;
     margin-bottom: -25px;
+    align-self: center;
   }
 
   &__type {
     color: gray;
+    font-size: 14px;
   }
 
 }

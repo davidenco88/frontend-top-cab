@@ -1,10 +1,8 @@
 import './App.css';
-import ListedCar from './components/ListedCar/ListedCar';
-// import ImageAndType from './components/ImageAndType/ImageAndType';
+import ListedCar from './components/List/ListedCar/ListedCar';
 
 function App() {
   return <ListedCar />;
-  // return <ImageAndType />;
 }
 
 export default App;
