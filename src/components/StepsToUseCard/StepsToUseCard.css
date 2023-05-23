@@ -1,4 +1,6 @@
 .StepsToUseCard {
+  color: black;
+  background-color: #E5E5E5;
   display: flex;
   flex-direction: column;
   justify-content: center;

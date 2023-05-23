@@ -1,10 +1,11 @@
 
 import './App.css';
-//import StepsToUseCard from'./components/StepsTo/stepsOfUse.jsx';
-import StepsToUse from  './components/StepsToUse/StepsToUse.jsx';
+//import HowToGetCard from'./components/StepsTo/stepsOfUse.jsx';
+import HowToGet from  './components/HowToGet/HowToGet.jsx';
+import WhyUse from './components/WhyUse/WhyUse.jsx'
 function App() {
   return <>
-  <StepsToUse/>
+  <HowToGet/>
   </>;
 }
 

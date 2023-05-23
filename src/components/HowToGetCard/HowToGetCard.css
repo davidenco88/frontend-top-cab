@@ -1,0 +1,38 @@
+.HowToGetCard {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HowToGetCard__Downloads--Mac-icon{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color:#eab30f;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+.HowToGetCard__Downloads--Andorid-icon{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color:#eab30f;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+.HowToGetCard>h3{
+  text-align: center;
+  color:#eab30f;
+}
+
+.HowToGetCard>p{
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .HowToGetCard {
+      width: 270px;
+      height: 270px;
+  }
+}

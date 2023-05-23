@@ -7,8 +7,7 @@ function StepsToUseCard() {
       <div className="StepsToUseCard-icon">
         <GiSteeringWheel />
       </div>
-      <h3>4500 + Rides Dauly</h3>
-      <p>Every daay more than 4500 customers take rides with RICA CAB.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   );
 }
