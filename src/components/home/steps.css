@@ -25,9 +25,9 @@
 }
 .whowTo-services {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 300px;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 .whowTo-services__item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
