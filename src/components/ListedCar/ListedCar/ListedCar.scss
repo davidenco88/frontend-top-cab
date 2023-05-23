@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  // width: 100%;
+  //Podria ser 100% cuando se integre a otro componente?
+  align-items: center;
+
+
+  &__listedCar {
+    margin: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px -10px rgb(193, 193, 193);
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+
+
+    &__listedCar {
+      flex-direction: row;
+      align-items: center;
+      padding-right: 20px;
+      justify-content: space-around;
+    }
+  }
+}
