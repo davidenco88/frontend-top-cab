@@ -1,0 +1,31 @@
+.StepsToUse{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 15px;
+  background-color: rgba(234, 179, 15,0.5);
+  /*background: #C33764;   fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(233, 225, 116, 0.8), rgba(234, 179, 15,0.5)), url("cityBackground.jpg");
+  background: linear-gradient(rgba(233, 225, 116, 0.8), rgba(234, 179, 15,0.5)), url("cityBackground.jpg"); /* The least supported option. */
+  /*background-image: url('cityBackground.jpg') ;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.StepsToUse__Cards{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+@media (min-width: 500px) {
+  .StepsToUse__Cards {
+     flex-direction:row ;
+     justify-content: space-around;
+     flex-wrap: wrap;
+  }
+}
