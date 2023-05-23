@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import {
   FaUserAlt,
   FaWindowClose,
@@ -25,8 +26,16 @@ function HeaderNavBar() {
       </div>
       <nav className={menuHide ? 'navBar hide' : 'navBar'}>
         <ul>
-          <li className="navBar__link"><p>Home</p></li>
-          <li className="navBar__link"><p>CAB</p></li>
+          <li className="navBar__link">
+            <NavLink to="/">
+              Home
+            </NavLink>
+          </li>
+          <li className="navBar__link">
+            <NavLink to="/cab">
+              Cab
+            </NavLink>
+          </li>
           <li className="navBar__link"><p>Pages</p></li>
         </ul>
       </nav>
