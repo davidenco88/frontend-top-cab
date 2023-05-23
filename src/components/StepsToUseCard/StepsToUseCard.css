@@ -1,0 +1,29 @@
+.StepsToUseCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 1px #E5E5E5;
+}
+.StepsToUseCard-icon{
+  display: flex;
+  align-items: center;
+  font-size: 68px;
+}
+.StepsToUseCard>h3{
+  text-align: center;
+  color:#eab30f;
+}
+.StepsToUseCard>p{
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .StepsToUseCard {
+      width: 270px;
+      height: 270px;
+  }
+}
