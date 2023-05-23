@@ -1,6 +1,6 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "./Slider.scss";
-import "@splidejs/react-splide/css";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import './Slider.scss';
+import '@splidejs/react-splide/css';
 
 function Slider({ data }) {
   return (
@@ -17,13 +17,13 @@ function Slider({ data }) {
       </div>
       <Splide
         options={{
-          width: "100%",
-          type: "loop",
+          width: '100%',
+          type: 'loop',
           center: true,
           // gap: "10px",
           snap: true,
           pagination: false,
-          margin: "0",
+          margin: '0',
           // focus: "center",
         }}
       >
@@ -31,7 +31,7 @@ function Slider({ data }) {
           <SplideSlide key={item.id}>
             <div className="container">
               <img className="container__image" src={item.image} alt="Cab" />
-              <h2 className="container__textType">{item.type}</h2>
+              <h2 className="container__textType">{item.service}</h2>
               <h3 className="container__textFee">Fee Start $12 / per Km</h3>
               <p className="container__description">{item.description}</p>
               <p>S O M E I C O N S</p>
