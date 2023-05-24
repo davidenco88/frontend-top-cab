@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { FaCrosshairs, FaRegCalendarAlt } from 'react-icons/fa';
 import './SearchForm.css';
 
@@ -49,7 +50,6 @@ function SearchForm() {
           SEARCH
         </button>
       </div>
-
     </form>
   );
 }

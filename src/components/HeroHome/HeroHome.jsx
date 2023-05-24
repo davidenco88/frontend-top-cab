@@ -1,4 +1,5 @@
 import './HeroHomeStyles.css';
+import SearchForm from '../SearchForm/SearchForm';
 
 function HeroHome() {
   return (
@@ -17,6 +18,7 @@ function HeroHome() {
             Same Location
           </label>
         </form>
+        <SearchForm />
       </div>
       <div className="hero__background" />
     </div>
