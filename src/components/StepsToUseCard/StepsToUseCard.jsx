@@ -3,7 +3,7 @@ import "./StepsToUseCard.css";
 //TODO add json file with card data
 function StepsToUseCard() {
   return (
-    <div class="StepsToUseCard">
+    <div className="StepsToUseCard">
       <div className="StepsToUseCard-icon">
         <GiSteeringWheel />
       </div>
