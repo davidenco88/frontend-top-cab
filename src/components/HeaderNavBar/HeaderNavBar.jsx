@@ -1,8 +1,10 @@
 import { NavLink } from 'react-router-dom';
+
 import {
   FaUserAlt,
   FaWindowClose,
   FaBars,
+  FaTaxi,
 } from 'react-icons/fa';
 
 import { AiFillSetting } from 'react-icons/ai';
@@ -22,7 +24,10 @@ function HeaderNavBar() {
   return (
     <header className="headerNavBar">
       <div className="c-logo">
-        <img src="/logo.svg" alt="logo-cab" />
+        <div className="background-logo">
+          <FaTaxi />
+        </div>
+        <span>RICA</span>
       </div>
       <nav className={menuHide ? 'navBar hide' : 'navBar'}>
         <ul>

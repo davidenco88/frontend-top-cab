@@ -6,10 +6,10 @@ import {
   FaAngleUp,
   FaTaxi,
   FaPhoneAlt,
-} from "react-icons/fa";
-import { MdLocationPin, MdMail } from "react-icons/md";
+} from 'react-icons/fa';
+import { MdLocationPin, MdMail } from 'react-icons/md';
 
-import "./Footer.scss";
+import './Footer.scss';
 
 function Footer() {
   return (

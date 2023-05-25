@@ -10,6 +10,23 @@
     color: white;
 }
 
+.c-logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.background-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6e6e6e;
+    border-radius: 30px;
+    padding: 15px;
+}
+
 .navBar>ul {
     list-style: none;
     display: flex;
