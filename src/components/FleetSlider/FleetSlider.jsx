@@ -1,13 +1,14 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { GiCarSeat } from 'react-icons/gi';
 import { MdOutlineLuggage } from 'react-icons/md';
 import { IoSnow } from 'react-icons/io5';
 import { FiSettings } from 'react-icons/fi';
-import './Slider.scss';
+import './FleetSlider.scss';
 import '@splidejs/react-splide/css';
 
-function Slider({ data }) {
+function FleetSlider({ data }) {
+  // const [width, setWidth] = useState(window.innerWidth)
   const getWindowWidth = () => window.innerWidth;
   const large = {
     width: '85%',
@@ -102,4 +103,4 @@ function Slider({ data }) {
   );
 }
 
-export default Slider;
+export default FleetSlider;
