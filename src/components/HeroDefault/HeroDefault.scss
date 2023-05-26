@@ -3,14 +3,29 @@
   align-items: center;
   background-image: url(../../assets/HeroDefault/hero2.png);
   height: 400px;
-  background-position: right 30% bottom 45%;;
+  background-position: right 10% bottom 45%;
+  background-size: cover;
   justify-content: flex-end;
 
   &__text {
-    // background-color: rgb(16, 18, 18);
     color: white;
     margin: 10px;
-    margin-right: 50px;
+    margin-right: 60px;
     text-align: right;
+    &__title {
+      font-weight: 800;
+      font-size: 28px;
+    }
+    &__details {
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    &__text {
+      margin-right: 25px;
+    }
   }
 }

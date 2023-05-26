@@ -1,11 +1,12 @@
 import './HeroDefault.scss';
 
-function HeroDefault() {
+function HeroDefault({ text }) {
   return (
     <div className="heroContainer">
       <div className="heroContainer__text">
-        <h2 className="heroContainer__text__title">CAB PAYMENT</h2>
-        <h3 className="container__text__whatever">Home &gt;&gt; Cab Payment</h3>
+        <h2 className="heroContainer__text__title">{text.title}</h2>
+        <br />
+        <h3 className="heroContainer__text__details">{text.details}</h3>
       </div>
     </div>
   );
