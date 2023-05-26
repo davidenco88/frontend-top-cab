@@ -7,6 +7,8 @@ import Cab from './pages/Cab';
 import HowToGet from './components/HowtoGet/HowtoGet';
 import StepsToUse from './components/StepsToUse/StepsToUse';
 import WhyUse from './components/WhyUse/WhyUse';
+import Booking from './pages/Booking';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cab" element={<Cab />} />
+        <Route path="/booking" element={<Booking />} />
       </Routes>
       <Footer />
       <StepsToUse/>
