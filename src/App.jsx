@@ -19,11 +19,10 @@ function App() {
         <Route path="/cab" element={<Cab />} />
         <Route path="/booking" element={<Booking />} />
       </Routes>
+      <Footer />
       <StepsToUse/>
       <WhyUse/>
       <HowToGet/>
-      <Footer />
-
     </>
   );
 }
