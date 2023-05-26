@@ -4,6 +4,9 @@ import HeaderNavBar from './components/HeaderNavBar/HeaderNavBar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Cab from './pages/Cab';
+import HowToGet from './components/HowtoGet/HowtoGet';
+import StepsToUse from './components/StepsToUse/StepsToUse';
+import WhyUse from './components/WhyUse/WhyUse';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path="/cab" element={<Cab />} />
       </Routes>
       <Footer />
+      <StepsToUse/>
+      <WhyUse/>
+      <HowToGet/>
     </>
   );
 }

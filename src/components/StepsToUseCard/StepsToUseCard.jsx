@@ -1,13 +1,13 @@
-import { GiSteeringWheel } from "react-icons/gi";
+import { BsPhoneVibrate } from "react-icons/bs";
 import "./StepsToUseCard.css";
 //TODO add json file with card data
 function StepsToUseCard() {
   return (
     <div className="StepsToUseCard">
       <div className="StepsToUseCard-icon">
-        <GiSteeringWheel />
+        <BsPhoneVibrate />
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Book cab threw website or app.</p>
     </div>
   );
 }
