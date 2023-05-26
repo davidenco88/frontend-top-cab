@@ -1,8 +1,16 @@
+import ListedCar from '../components/ListedCar/ListedCar/ListedCar';
+import HeroDefault from '../components/HeroDefault/HeroDefault';
+
+const cabSearch = {
+  title: 'CAB SEARCH',
+  details: 'Home >> Cab Payment',
+};
+
 function Cab() {
   return (
     <>
-      <h1>Cab</h1>
-      <h1>jashgdjshag</h1>
+      <HeroDefault text={cabSearch} />
+      <ListedCar />
     </>
   );
 }
