@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import data from '../../../assets/mockdata.json';
 import ImageAndType from '../ImageAndType/ImageAndType';
 import InfoIcons from '../InfoIcons/InfoIcons';
@@ -13,9 +14,11 @@ function ListedCar() {
           <ImageAndType item={item} />
           <InfoIcons item={item} />
           <ListPrice item={item} />
-          <OrangeButton text="Book now" />
+          <NavLink className="list__listedCar__button" to="/booking">
+            <OrangeButton text="Book now" />
+          </NavLink>
         </div>
-      ))};
+      ))}
     </main>
   );
 }
