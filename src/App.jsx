@@ -23,7 +23,6 @@ function App() {
       <WhyUse/>
       <HowToGet/>
       <Footer />
-
     </>
   );
 }

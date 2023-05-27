@@ -4,8 +4,8 @@ import "./HowToGetCardPhone.css";
 function HowToGetCardPhone() {
   return (
     <div className="HowToGetCardPhone">
-      <img src='Mockup-web-GPS.png' alt="rides" className= "HowToGetCardPhone--Map-photo" />
-      <img src='responsive-table-on-iphone-1.webp' alt="rides" className= "HowToGetCardPhone--Data-photo" />
+      <img src='phoneUpscaled1.jpg' alt="rides" className= "HowToGetCardPhone--Map-photo" />
+      <img src='phoneUpscaled2.jpg' alt="rides" className= "HowToGetCardPhone--Data-photo" />
     </div>
 
   );
