@@ -3,7 +3,7 @@ import "./whyUseCard.css";
 //TODO add json file with card data
 function WhyUseCard() {
   return (
-    <div class="WhyUseCard">
+    <div className="WhyUseCard">
       <div className="WhyUseCard-icon">
         <GiSteeringWheel />
       </div>
