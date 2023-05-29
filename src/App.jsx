@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Cab from './pages/Cab';
 import Booking from './pages/Booking';
+import Example from './components/FilteredTable/filter';
 
 function App() {
   return (
