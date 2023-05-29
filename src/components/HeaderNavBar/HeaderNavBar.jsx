@@ -30,27 +30,27 @@ function HeaderNavBar() {
       <nav>
         <ul className="fixed-nav">
           <li className="navBar__link">
-            <NavLink to="/">
+            <NavLink className="links" to="/">
               Home
             </NavLink>
           </li>
           <li className="navBar__link">
-            <NavLink to="/cab">
+            <NavLink className="links" to="/cab">
               Cab
             </NavLink>
           </li>
           <li className="navBar__link"><p>Pages</p></li>
         </ul>
       </nav>
-      <nav className={menuHide ? 'navBar hide' : 'navBar'}>
+      <nav className={menuHide ? 'navBarMobile hide' : 'navBarMobile'}>
         <ul>
           <li className="navBar__link">
-            <NavLink to="/">
+            <NavLink className="links" to="/">
               Home
             </NavLink>
           </li>
           <li className="navBar__link">
-            <NavLink to="/cab">
+            <NavLink className="links" to="/cab">
               Cab
             </NavLink>
           </li>
