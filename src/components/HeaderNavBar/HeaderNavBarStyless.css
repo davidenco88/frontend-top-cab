@@ -35,6 +35,14 @@
     gap: 20px;
 }
 
+.fixed-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .configBar {
     display: flex;
     justify-content: center;
@@ -73,6 +81,10 @@
 
     .headerNavBar__menu {
         display: block;
+    }
+
+    .fixed-nav {
+      display: none;
     }
 
 }
