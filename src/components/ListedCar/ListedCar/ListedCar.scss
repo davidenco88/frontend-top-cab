@@ -1,10 +1,8 @@
 .list {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  //Podria ser 100% cuando se integre a otro componente?
   align-items: center;
-  // padding: 10px;
+  padding: 0px 15px;
 
 
   &__listedCar {
@@ -23,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 960px) {
   .list {
 
     &__listedCar {

@@ -3,7 +3,7 @@ import {
   FaBars,
   FaWindowClose,
 } from 'react-icons/fa';
-import CheckFilter from './CheckFilter';
+import CheckFilter from './CheckFilter/CheckFilter';
 import './ListFilter.scss';
 
 const carTypes = {
