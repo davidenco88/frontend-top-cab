@@ -20,9 +20,10 @@
 
 
 @media (min-width: 500px) {
-  .HowToGetCardPhone--Map-photo {
-      flex-direction:column;
-      width: 270px;
-      height: 270px;
+  .HowToGetCardPhone {
+      flex-direction:row;
+      justify-content: flex-end;
+       align-items: flex-end;
+
   }
 }
