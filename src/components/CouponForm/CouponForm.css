@@ -1,0 +1,43 @@
+.couponForm {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+
+.couponForm__item {
+    margin-bottom: 10px;
+}
+
+.couponForm__item p {
+    margin-left: 16px;
+}
+
+.c-promoCode {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.couponForm__input input,
+.couponForm__input button {
+    padding: 5px;
+    border: #CED4D9 solid 2px;
+    border-radius: 5px;
+}
+
+.couponForm__input input {
+    flex-grow: 1;
+}
+
+.couponForm__input button {
+    width: 100px;
+    height: auto;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #E9ECEF;
+}
+
+.couponForm__item-name {
+    font-weight: bold;
+}
