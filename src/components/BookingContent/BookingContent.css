@@ -1,0 +1,27 @@
+.BookingContent {
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 1fr;
+    gap: 25px 25px;
+}
+
+.gridColumn-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+.gridColumn-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+.gridColumn-2 div {
+    margin-bottom: 25px;
+}

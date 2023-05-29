@@ -3,9 +3,7 @@ import './BookingSummery.css';
 function BookingSummery() {
   return (
     <div className="bookingSummery">
-      <div className="bookingSummery__header">
-        <p>Booking Summery</p>
-      </div>
+      <h3 className="bookingSummery__header">Booking Summery</h3>
       <div className="bookingSummery__content">
         <ul>
           <li><span>Itinerary:</span><span>Paris--Toules</span></li>
@@ -13,9 +11,9 @@ function BookingSummery() {
           <li><span>Return Date:</span><span>14/06/2023, 13:00pm</span></li>
           <li><span>Car Type:</span><span>Fiat Chrysler</span></li>
         </ul>
-        <div className="bookingSummery">
-          <span>Total Fare</span><span>$1250</span>
-        </div>
+        <h3 className="bookingSummery__total">
+          <span>Total Fare:</span><span>$1250</span>
+        </h3>
       </div>
     </div>
   );
