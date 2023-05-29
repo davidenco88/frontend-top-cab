@@ -16,10 +16,8 @@ function HeaderNavBar() {
   const [menuHide, setMenuHide] = useState(true);
   const [configHide, setConfigHide] = useState(true);
 
-  const handleClikMenu = () => setMenuHide(false);
-  const handleClikCloseMenu = () => setMenuHide(true);
-  const handleClikConfig = () => setConfigHide(false);
-  const handleClikCloseConfig = () => setConfigHide(true);
+  const handleClikMenu = () => setMenuHide(!menuHide);
+  const handleClikConfig = () => setConfigHide(!configHide);
 
   return (
     <header className="headerNavBar">
@@ -29,15 +27,30 @@ function HeaderNavBar() {
         </div>
         <span>RICA</span>
       </div>
-      <nav className={menuHide ? 'navBar hide' : 'navBar'}>
-        <ul>
+      <nav>
+        <ul className="fixed-nav">
           <li className="navBar__link">
-            <NavLink to="/">
+            <NavLink className="links" to="/">
               Home
             </NavLink>
           </li>
           <li className="navBar__link">
-            <NavLink to="/cab">
+            <NavLink className="links" to="/cab">
+              Cab
+            </NavLink>
+          </li>
+          <li className="navBar__link"><p>Pages</p></li>
+        </ul>
+      </nav>
+      <nav className={menuHide ? 'navBarMobile hide' : 'navBarMobile'}>
+        <ul>
+          <li className="navBar__link">
+            <NavLink className="links" to="/">
+              Home
+            </NavLink>
+          </li>
+          <li className="navBar__link">
+            <NavLink className="links" to="/cab">
               Cab
             </NavLink>
           </li>
@@ -64,7 +77,7 @@ function HeaderNavBar() {
         <div className="headerNavBar__menu">
           {configHide
             ? <div onClick={handleClikConfig}><AiFillSetting /></div>
-            : <div onClick={handleClikCloseConfig}><FaWindowClose /></div>}
+            : <div onClick={handleClikConfig}><FaWindowClose /></div>}
         </div>
         <div>
           <FaUserAlt />
@@ -72,7 +85,7 @@ function HeaderNavBar() {
         <div className="headerNavBar__menu">
           {menuHide
             ? <div onClick={handleClikMenu}><FaBars /></div>
-            : <div onClick={handleClikCloseMenu}><FaWindowClose /></div>}
+            : <div onClick={handleClikMenu}><FaWindowClose /></div>}
         </div>
       </nav>
 
