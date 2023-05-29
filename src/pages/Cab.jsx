@@ -1,5 +1,7 @@
 import ListedCar from '../components/ListedCar/ListedCar/ListedCar';
 import HeroDefault from '../components/HeroDefault/HeroDefault';
+import ListFilter from '../components/ListFilter/ListFilter';
+import './Cab.scss';
 
 const cabSearch = {
   title: 'CAB SEARCH',
@@ -10,7 +12,11 @@ function Cab() {
   return (
     <>
       <HeroDefault text={cabSearch} />
-      <ListedCar />
+      <main className="cabMain">
+        <ListFilter className="cabMain__filter" />
+        <ListedCar className="cabMain__list" />
+      </main>
+
     </>
   );
 }
