@@ -25,7 +25,7 @@ function HeaderNavBar() {
         <div className="background-logo">
           <FaTaxi />
         </div>
-        <span>RICA</span>
+        <span className="headerNavBar__title">RICA</span>
       </div>
       <nav className={menuHide ? 'navBarMobile navHide' : 'navBarMobile'}>
         <ul className="navBar">
