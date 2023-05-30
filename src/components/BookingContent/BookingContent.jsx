@@ -7,17 +7,18 @@ import ContactDetailsForm from '../ContactDetailsForm/ContactDetailsForm';
 function BookingContent() {
   return (
     <div className="BookingContent">
-      <div className="gridColumn-1">
-        <ContactDetailsForm />
-      </div>
-      <div className="gridColum-2">
-        <div>
+      <div className="BookingContent__Column-2">
+        <div className="BookingContent__Column-2__item">
           <BookingSummery />
         </div>
-        <div>
+        <div className="BookingContent__Column-2__item">
           <CouponForm />
         </div>
-
+      </div>
+      <div className="BookingContent__Column-1">
+        <div className="BookingContent__Column-1__item">
+          <ContactDetailsForm />
+        </div>
       </div>
     </div>
   );
