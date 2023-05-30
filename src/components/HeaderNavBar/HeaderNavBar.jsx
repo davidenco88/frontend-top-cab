@@ -27,23 +27,8 @@ function HeaderNavBar() {
         </div>
         <span>RICA</span>
       </div>
-      <nav>
-        <ul className="fixed-nav">
-          <li className="navBar__link">
-            <NavLink className="links" to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="navBar__link">
-            <NavLink className="links" to="/cab">
-              Cab
-            </NavLink>
-          </li>
-          <li className="navBar__link"><p>Pages</p></li>
-        </ul>
-      </nav>
-      <nav className={menuHide ? 'navBarMobile hide' : 'navBarMobile'}>
-        <ul>
+      <nav className={menuHide ? 'navBarMobile navHide' : 'navBarMobile'}>
+        <ul className="navBar">
           <li className="navBar__link">
             <NavLink className="links" to="/">
               Home
@@ -61,7 +46,7 @@ function HeaderNavBar() {
         <select
           name="currency"
           id="currency"
-          className={configHide ? 'configNavBar__set hide' : 'configNavBar__set'}
+          className={configHide ? 'configNavBar__set navHide' : 'configNavBar__set'}
         >
           <option value="USD">USD</option>
           <option value="COP">COP</option>
@@ -69,7 +54,7 @@ function HeaderNavBar() {
         <select
           name="language"
           id="language"
-          className={configHide ? 'configNavBar__set hide' : 'configNavBar__set'}
+          className={configHide ? 'configNavBar__set navHide' : 'configNavBar__set'}
         >
           <option value="ENG">ENG</option>
           <option value="ESP">ESP</option>

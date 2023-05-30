@@ -27,16 +27,12 @@
     padding: 15px;
 }
 
-.navBarMobile>ul {
-    display: none;
-}
-
-.fixed-nav {
+.navBar {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .configBar {
@@ -54,24 +50,27 @@
 }
 
 .links {
-  color: #f1c40f;
-  text-decoration: none;
+    color: #f1c40f;
+    text-decoration: none;
 }
+
 .links:hover {
-  color: #f1c40f;
-  text-decoration:underline rgb(255, 255, 255);
+    color: #f1c40f;
+    text-decoration: underline rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 700px) {
 
     .navBarMobile>ul {
         display: flex;
+        gap: 20px;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 70px;
+        z-index: 1;
+        top: 88px;
         right: 0;
         background-color: #f1c40f;
         padding: 10px 0;
@@ -80,7 +79,7 @@
         list-style: none;
     }
 
-    .hide {
+    .navHide {
         display: none;
     }
 
@@ -88,17 +87,14 @@
         display: block;
     }
 
-    .fixed-nav {
-      display: none;
+    .links {
+        color: #ffffff;
+        text-decoration: none;
     }
 
-    .links {
-      color: #ffffff;
-      text-decoration: none;
-    }
     .links:hover {
-      color: #ffffff;
-      text-decoration:underline rgb(0, 0, 0);
+        color: #ffffff;
+        text-decoration: underline rgb(0, 0, 0);
     }
 
 }
