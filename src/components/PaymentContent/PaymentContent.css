@@ -1,14 +1,14 @@
-.BookingContent {
+.PaymentOptions {
     padding: 15px;
 }
 
-.BookingContent__Column-1__item,
-.BookingContent__Column-2__item {
+.PaymentOptions__Column-1__item,
+.PaymentOptions__Column-2__item {
     margin-bottom: 25px;
 }
 
 @media screen and (min-width: 700px) {
-    .BookingContent {
+    .PaymentOptions {
         width: 100%;
         padding: 30px;
         display: grid;
@@ -17,12 +17,12 @@
         gap: 25px;
     }
 
-    .BookingContent__Column-1 {
+    .PaymentOptions__Column-1 {
         width: 100%;
         grid-area: 1 / 1 / span 1 / span 1;
     }
 
-    .BookingContent__Column-2 {
+    .PaymentOptions__Column-2 {
         width: 100%;
         grid-area: 1 / 2 / span 1 / span 1;
         display: flex;

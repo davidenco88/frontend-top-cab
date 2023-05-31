@@ -5,7 +5,9 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Cab from './pages/Cab';
 import Booking from './pages/Booking';
+import FailedPayment from './pages/FailedPayment';
 import Example from './components/FilteredTable/filter';
+import Payment from './pages/Payment';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cab" element={<Cab />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/failed" element={<FailedPayment />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
       <Footer />
     </>
