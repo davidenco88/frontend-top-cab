@@ -10,7 +10,6 @@ function PaymentOptions() {
       <div className="paymentOptions__content">
         <CreditCardForm />
       </div>
-
     </div>
   );
 }
