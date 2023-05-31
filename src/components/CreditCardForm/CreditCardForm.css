@@ -38,14 +38,14 @@
 .formCreditCard__input>input {
     flex-grow: 1;
     border: none;
-    width: ;
+    width: 50px;
 }
 
 .formCreditCard__input>img {
     height: 12px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
 
     .formCreditCard {
         display: grid;

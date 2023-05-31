@@ -1,6 +1,6 @@
 import HeroDefault from '../components/HeroDefault/HeroDefault';
 
-import BookingContent from '../components/BookingContent/BookingContent';
+import PaymentContent from '../components/PaymentContent/PaymentContent';
 
 const cabSearch = {
   title: 'CAB PAYMENT',
@@ -11,7 +11,7 @@ function Payment() {
   return (
     <>
       <HeroDefault text={cabSearch} />
-      <BookingContent />
+      <PaymentContent />
     </>
   );
 }
