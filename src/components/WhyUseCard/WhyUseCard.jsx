@@ -1,6 +1,6 @@
-import { GiSteeringWheel } from "react-icons/gi";
-import "./whyUseCard.css";
-//TODO add json file with card data
+import { GiSteeringWheel } from 'react-icons/gi';
+import './WhyUseCard.css';
+// TODO add json file with card data
 function WhyUseCard() {
   return (
     <div className="WhyUseCard">
