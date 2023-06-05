@@ -78,3 +78,9 @@
   margin-left: -10px;
   text-decoration: none;
 }
+
+/* .ContactDetailsForm__item label,
+.ContactDetailsForm__item input,
+.ContactDetailsForm__item span {
+    display: block;
+} */
