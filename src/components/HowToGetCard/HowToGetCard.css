@@ -5,25 +5,33 @@
   justify-content: center;
   align-items: center;
 }
+.HowToGetCard__Downloads{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
 .HowToGetCard__Downloads--Mac-icon{
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 26px;
   color:#eab30f;
-  padding: 15px 20px;
+  background-color: white;
   border-radius: 12px;
+  margin: 6px 0 0 0;
 }
 .HowToGetCard__Downloads--Andorid-icon{
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 26px;
   color:#eab30f;
-  padding: 15px 20px;
+  background-color: white;
   border-radius: 12px;
+  margin: 6px 0 0 0;
 }
 .HowToGetCard>h3{
   text-align: center;
-  color:#eab30f;
+  color:white;
 }
 
 .HowToGetCard>p{
@@ -34,5 +42,9 @@
   .HowToGetCard {
       width: 270px;
       height: 270px;
+  }
+  .HowToGetCard__Downloads{
+    display: flex;
+    flex-direction: row;
   }
 }

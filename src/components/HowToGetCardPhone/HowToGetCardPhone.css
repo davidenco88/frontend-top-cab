@@ -8,21 +8,20 @@
 .HowToGetCardPhone--Map-photo{
   display: flex;
   align-items: center;
-  width: 225px;
+  width: 120px;
 }
 .HowToGetCardPhone--Data-photo{
   display: flex;
   align-items: center;
-  width: 150px;
+  width: 120px;
 }
 
 
 
 
 @media (min-width: 500px) {
-  .HowToGetCardPhone--Map-photo {
-      flex-direction:column;
-      width: 270px;
-      height: 270px;
+  .HowToGetCardPhone {
+      flex-direction:row;
+
   }
 }

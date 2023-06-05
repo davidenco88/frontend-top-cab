@@ -5,7 +5,8 @@
 
   &__img {
     max-width: 200px;
-    margin: 0px auto;
+    margin: 0px 0px;
+    margin-right: -15px;
     margin-bottom: -25px;
     align-self: center;
   }
@@ -14,5 +15,7 @@
     color: gray;
     font-size: 14px;
   }
+
+}
 
 }
