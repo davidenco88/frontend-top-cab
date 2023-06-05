@@ -1,6 +1,6 @@
-import { FaRegGrinStars } from "react-icons/fa";
-import "./whyUseCard.css";
-//TODO add json file with card data
+import { FaRegGrinStars } from 'react-icons/fa';
+import './WhyUseCard.css';
+// TODO add json file with card data
 function WhyUseCard2() {
   return (
     <div className="WhyUseCard">

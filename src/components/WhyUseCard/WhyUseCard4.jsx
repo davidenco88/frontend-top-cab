@@ -1,6 +1,6 @@
-import { RiTaxiWifiLine } from "react-icons/ri";
-import "./whyUseCard.css";
-//TODO add json file with card data
+import { RiTaxiWifiLine } from 'react-icons/ri';
+import './WhyUseCard.css';
+// TODO add json file with card data
 function WhyUseCard4() {
   return (
     <div className="WhyUseCard">

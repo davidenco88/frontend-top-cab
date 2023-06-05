@@ -1,6 +1,6 @@
-import { GrMapLocation } from "react-icons/gr";
-import "./whyUseCard.css";
-//TODO add json file with card data
+import { GrMapLocation } from 'react-icons/gr';
+import './WhyUseCard.css';
+// TODO add json file with card data
 function WhyUseCard3() {
   return (
     <div className="WhyUseCard">
