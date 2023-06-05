@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+import OrangeButton from '../OrangeButton/OrangeButton';
 import './ContactDetailsForm.css';
 
 function ContactDetailsForm() {
@@ -53,6 +55,9 @@ function ContactDetailsForm() {
             </div>
           </label>
         </div>
+        <NavLink className="ContactDetailsForm__button" to="/payment">
+          <OrangeButton text="PROCEED TO PAY" />
+        </NavLink>
       </form>
     </div>
   );
