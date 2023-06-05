@@ -6,7 +6,7 @@ import {
 import { BsPlusSquareFill, BsFillDashSquareFill } from 'react-icons/bs';
 import './CheckFilter.scss';
 
-function CheckFilter({ data }) {
+function CheckFilter({ data, testPlusIcon, testMinusIcon }) {
   const { title, checks } = data;
   const [menuHide, setMenuHide] = useState(true);
 
@@ -20,8 +20,8 @@ function CheckFilter({ data }) {
           <h4>{title}</h4>
           <div>
             {menuHide
-              ? <div onClick={handleClikMenu}><BsPlusSquareFill className="checkFilter__icon" /></div>
-              : <div onClick={handleClikMenu}><BsFillDashSquareFill className="checkFilter__icon" /></div>}
+              ? <div onClick={handleClikMenu}><BsPlusSquareFill className="checkFilter__icon" data-testid={testPlusIcon} /></div>
+              : <div onClick={handleClikMenu}><BsFillDashSquareFill className="checkFilter__icon" data-testid={testMinusIcon} /></div>}
           </div>
         </div>
         <ul className={menuHide

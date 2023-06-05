@@ -16,10 +16,8 @@ function HeaderNavBar() {
   const [menuHide, setMenuHide] = useState(true);
   const [configHide, setConfigHide] = useState(true);
 
-  const handleClikMenu = () => setMenuHide(false);
-  const handleClikCloseMenu = () => setMenuHide(true);
-  const handleClikConfig = () => setConfigHide(false);
-  const handleClikCloseConfig = () => setConfigHide(true);
+  const handleClikMenu = () => setMenuHide(!menuHide);
+  const handleClikConfig = () => setConfigHide(!configHide);
 
   return (
     <header className="headerNavBar">
@@ -27,17 +25,17 @@ function HeaderNavBar() {
         <div className="background-logo">
           <FaTaxi />
         </div>
-        <span>RICA</span>
+        <span className="headerNavBar__title">RICA</span>
       </div>
-      <nav className={menuHide ? 'navBar hide' : 'navBar'}>
-        <ul>
+      <nav className={menuHide ? 'navBarMobile navHide' : 'navBarMobile'}>
+        <ul className="navBar">
           <li className="navBar__link">
-            <NavLink to="/">
+            <NavLink className="links" to="/">
               Home
             </NavLink>
           </li>
           <li className="navBar__link">
-            <NavLink to="/cab">
+            <NavLink className="links" to="/cab">
               Cab
             </NavLink>
           </li>
@@ -48,7 +46,7 @@ function HeaderNavBar() {
         <select
           name="currency"
           id="currency"
-          className={configHide ? 'configNavBar__set hide' : 'configNavBar__set'}
+          className={configHide ? 'configNavBar__set navHide' : 'configNavBar__set'}
         >
           <option value="USD">USD</option>
           <option value="COP">COP</option>
@@ -56,7 +54,7 @@ function HeaderNavBar() {
         <select
           name="language"
           id="language"
-          className={configHide ? 'configNavBar__set hide' : 'configNavBar__set'}
+          className={configHide ? 'configNavBar__set navHide' : 'configNavBar__set'}
         >
           <option value="ENG">ENG</option>
           <option value="ESP">ESP</option>
@@ -64,7 +62,7 @@ function HeaderNavBar() {
         <div className="headerNavBar__menu">
           {configHide
             ? <div onClick={handleClikConfig}><AiFillSetting /></div>
-            : <div onClick={handleClikCloseConfig}><FaWindowClose /></div>}
+            : <div onClick={handleClikConfig}><FaWindowClose /></div>}
         </div>
         <div>
           <FaUserAlt />
@@ -72,7 +70,7 @@ function HeaderNavBar() {
         <div className="headerNavBar__menu">
           {menuHide
             ? <div onClick={handleClikMenu}><FaBars /></div>
-            : <div onClick={handleClikCloseMenu}><FaWindowClose /></div>}
+            : <div onClick={handleClikMenu}><FaWindowClose /></div>}
         </div>
       </nav>
 

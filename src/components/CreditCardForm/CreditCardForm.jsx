@@ -14,7 +14,7 @@ function CreditCardForm() {
             <input type="text" id="cardOwner-cc" required />
           </div>
         </label>
-        <label htmlFor="cardNumber" className="formCreditCard__item-number ">
+        <label htmlFor="cardNumber-cc" className="formCreditCard__item-number ">
           Card Number
           <div className="formCreditCard__input">
             <input type="number" id="cardNumber-cc" required />
@@ -39,7 +39,7 @@ function CreditCardForm() {
           CVV
           <div className="formCreditCard__input">
             <input type="number" id="cardCVV-cc" required />
-            <img src="cvv_icon.svg" alt="amex icon" />
+            <img src="cvv_icon.svg" alt="cvv icon" />
           </div>
         </label>
       </div>

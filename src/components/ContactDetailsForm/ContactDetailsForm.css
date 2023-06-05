@@ -1,6 +1,6 @@
 .ContactDetailsForm {
     width: 100%;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 30px -10px rgb(193, 193, 193);
 }
 
 .ContactDetailsForm__header {
@@ -72,6 +72,11 @@
     font-weight: normal;
     font-size: 14px;
     background-color: #E9ECEF;
+}
+
+.ContactDetailsForm__button {
+  margin-left: -10px;
+  text-decoration: none;
 }
 
 /* .ContactDetailsForm__item label,

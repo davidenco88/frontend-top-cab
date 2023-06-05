@@ -4,7 +4,7 @@ import { fetchCars } from '../../../services/cars';
 import ImageAndType from '../ImageAndType/ImageAndType';
 import InfoIcons from '../InfoIcons/InfoIcons';
 import ListPrice from '../ListPrice/ListPrice';
-import OrangeButton from '../OrangeButton/OrangeButton';
+import OrangeButton from '../../OrangeButton/OrangeButton';
 import './ListedCar.scss';
 
 function ListedCar() {
