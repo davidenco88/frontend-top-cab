@@ -3,7 +3,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import ContactDetailsForm from './ContactDetailsForm';
 
-describe('BookingSummery test', () => {
+describe('ContacDetailsForm test', () => {
   test('Should render successfully', () => {
     render(<ContactDetailsForm />);
   });
