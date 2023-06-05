@@ -29,7 +29,7 @@ const carOptions = {
   ],
 };
 
-function ListFilter() {
+function ListFilter({ testFilterOptions, testBarIcon, testCloseIcon }) {
   const [menuHide, setMenuHide] = useState(true);
 
   const handleClikMenu = () => setMenuHide(!menuHide);
@@ -39,12 +39,14 @@ function ListFilter() {
       <div className="listFilter__title">
         <h3 className="listFilter__title__text">Latest Filter</h3>
         {menuHide
-          ? <FaBars onClick={handleClikMenu} className="listFilter__title__text" />
-          : <FaWindowClose onClick={handleClikMenu} className="listFilter__title__text" />}
+          ? <FaBars onClick={handleClikMenu} className="listFilter__title__text" data-testid={testBarIcon} />
+          : <FaWindowClose onClick={handleClikMenu} className="listFilter__title__text" data-testid={testCloseIcon} />}
       </div>
-      <div className={menuHide
-        ? 'listFilter__options hide'
-        : 'listFilter__options'}
+      <div
+        data-testid={testFilterOptions}
+        className={menuHide
+          ? 'listFilter__options hide'
+          : 'listFilter__options'}
       >
         <CheckFilter data={carTypes} />
         <CheckFilter data={carCapacity} />
